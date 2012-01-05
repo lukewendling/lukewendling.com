@@ -1,3 +1,4 @@
+$stdout.sync = true
 require 'heroku-sinatra-app'
 
 ## There is no need to set directories here anymore;
