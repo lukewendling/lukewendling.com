@@ -1,0 +1,23 @@
+#container {
+  width: 50%; 
+  /* flexbox setup */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+ 
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+#links{font-size:200%; font-family:'Nosifer', cursive;}
+ul li{list-style:none}
+ul{border: 1px solid black; border-radius:10px; moz-border-radius:10px; webkit-border-radius:10px}
+#html5_logo{position:absolute; top:0; left:0}
+
