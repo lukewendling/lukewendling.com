@@ -1,3 +1,4 @@
+body{font-size:1.75em; line-height: 2em}
 #container {
   width: 50%; 
   /* flexbox setup */
@@ -16,7 +17,7 @@
   box-pack: center;
   box-align: center;
 }
-#links{font-family:'Nosifer', cursive; border: 1px solid black; border-radius:10px; moz-border-radius:10px; webkit-border-radius:10px}
+#links{font-family:'Nosifer', cursive; border: 1px solid black; border-radius:10px; moz-border-radius:10px; webkit-border-radius:10px; padding: 5px}
 #html5_logo{}
 a {color: black}
 a:visited {color: black}
