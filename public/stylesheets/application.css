@@ -1,6 +1,5 @@
-body{font-size:1.75em; line-height: 2em}
+body{font-size:1.9em; line-height: 2em}
 #container {
-  width: 50%; 
   /* flexbox setup */
   display: -webkit-box;
   -webkit-box-orient: horizontal;
