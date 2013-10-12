@@ -1,4 +1,4 @@
-body{font-size:1.9em; line-height: 2em}
+body{font-family:'Ubuntu', sans-serif; font-size:1.9em; line-height: 2em}
 #container {
   /* flexbox setup */
   display: -webkit-box;
@@ -16,7 +16,7 @@ body{font-size:1.9em; line-height: 2em}
   box-pack: center;
   box-align: center;
 }
-#links{font-family:'Nosifer', cursive; border: 1px solid black; border-radius:10px; moz-border-radius:10px; webkit-border-radius:10px; padding: 5px}
+#links{cursive; border: 1px solid black; border-radius:10px; moz-border-radius:10px; webkit-border-radius:10px; padding: 5px}
 #html5_logo{}
 a {color: black}
 a:visited {color: black}
