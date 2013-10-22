@@ -9,8 +9,6 @@
     %link{href: 'stylesheets/application.css', rel: 'stylesheet', media: 'all'}
     %link{href: 'stylesheets/grid/1140.css', rel: 'stylesheet', media: 'all'}
     %link{href: 'black_sm.jpg', rel: 'apple-touch-icon'}
-    %script{src: 'javascripts/grid/css3-mediaqueries.js'}
-    %script{src: 'javascripts/links.js'}
     
     - if ENV['RACK_ENV'] == 'production'
       :javascript
@@ -36,11 +34,13 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
   %body
-    #container.container{'ng-app' => ''}
+    #container.container{'ng-app' => 'resumeApp'}
       %header
       
       = yield
       
       %footer
-  
+
+    %script{src: 'javascripts/grid/css3-mediaqueries.js'}
     %script{src: '//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.5/angular.min.js'}
+    %script{src: 'javascripts/links.js'}
