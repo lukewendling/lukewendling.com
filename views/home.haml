@@ -1,31 +1,31 @@
-%section#links
+%section#links{'ng-controller' => 'LinksCtrl'}
   .row
     .twelvecol.last
       %h3 Luke Wendling - Full Stack Senior Engineer. Ruby on Rails. Node.js. Javascript. Coffeescript. Heroku.
   .row
     .twelvecol.last
       %p
-        %a{href: 'http://linkedin.com/in/lukewendling'} LinkedIn
+        %a{href: '{{links.github.url}}', target: '_blank'} {{links.github.name}}
   .row
     .twelvecol.last
       %p
-        %a{href: 'https://docs.google.com/document/d/1WvzCd7QYhnVWc1_tXVAqkRNaCPkBWk_5N19fnL0kQvY/pub'} Resume
+        %a{href: '{{links.resume.url}}', target: '_blank'} {{links.resume.name}}
   .row
     .twelvecol.last
       %p
-        %a{href: 'http://vizualize.me/lukewendling'} Vizualize
+        %a{href: '{{links.linkedin.url}}', target: '_blank'} {{links.linkedin.name}}
   .row
     .twelvecol.last
       %p
-        %a{href: 'http://github.com/lukewendling'} GitHub
+        %a{href: '{{links.stats.url}}', target: '_blank'} {{links.stats.name}}
   .row
     .twelvecol.last
       %p
-        %a{href: 'http://daytum.com/lukewendling'} Stats
+        %a{href: '{{links.cover.url}}', target: '_blank'} {{links.cover.name}}
   .row
     .twelvecol.last
       %p
-        %a{href: 'http://plus.google.com/u/0/104918642118115385236'} Google+
+        %a{href: '{{links.elevator.url}}', target: '_blank'} {{links.elevator.name}}
   .row
     .tencol
       %p
